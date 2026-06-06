@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>মোহনা এন্টারপ্রাইজ — বিশুদ্ধ পানির নির্ভরযোগ্য সমাধান</title>
+    <meta name="description"
+        content="মোহনা এন্টারপ্রাইজ — গভীর নলকূপ স্থাপন, আয়রন ও আর্সেনিক মুক্ত পানি, ট্যাঙ্ক ও পাইপ লাইন স্থাপন।" />
+    <meta name="keywords" content="নলকূপ, পানি, ফিল্টার, আয়রন মুক্ত, টিউবওয়েল, বাংলাদেশ" />
+    <meta name="author" content="মোহনা এন্টারপ্রাইজ" />
+
+    <!-- Bangla font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="nav" id="nav">
+        <div class="nav__container container">
+            <a href="#home" class="nav__logo" data-testid="nav-logo">
+                <span class="nav__logo-mark"><i class="ri-drop-fill"></i></span>
+                <span>মোহনা <em>এন্টারপ্রাইজ</em></span>
+            </a>
+
+            <div class="nav__menu" id="navMenu" data-testid="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link" data-testid="link-home">হোম</a></li>
+                    <li><a href="#about" class="nav__link" data-testid="link-about">সম্পর্কে</a></li>
+                    <li><a href="#services" class="nav__link" data-testid="link-services">সেবা</a></li>
+                    <li><a href="#packages" class="nav__link" data-testid="link-packages">প্যাকেজ</a></li>
+                    <li><a href="#reviews" class="nav__link" data-testid="link-reviews">রিভিউ</a></li>
+                    <li><a href="#contact" class="nav__link" data-testid="link-contact">যোগাযোগ</a></li>
+                </ul>
+                <button class="nav__close" id="navClose" aria-label="Close menu" data-testid="nav-close">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+
+            <div class="nav__actions">
+                <a href="#booking" class="btn btn--primary nav__cta" data-testid="nav-book-btn">বুক করুন</a>
+                <button class="nav__toggle" id="navToggle" aria-label="Open menu" data-testid="nav-toggle">
+                    <i class="ri-menu-3-line"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section class="hero section" id="home">
+            <div class="hero__bg" aria-hidden="true"></div>
+
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <span class="eyebrow" data-testid="hero-tagline">
+                        <i class="ri-shield-check-line"></i>
+                        বিশুদ্ধ পানির নির্ভরযোগ্য সমাধান
+                    </span>
+                    <h1 class="hero__title" data-testid="hero-title">
+                        গভীর নলকূপ ও <span class="accent">আয়রন মুক্ত</span> পানি।
+                    </h1>
+                    <p class="hero__text">
+                        ১০ বছরের অভিজ্ঞতায় আপনার বাড়ি, ব্যবসা কিংবা প্রতিষ্ঠানে নিরাপদ ও বিশুদ্ধ
+                        পানির সম্পূর্ণ সমাধান — নলকূপ থেকে ট্যাঙ্ক, পাইপ থেকে ফিল্টার পর্যন্ত।
+                    </p>
+
+                    <div class="hero__cta">
+                        <a href="#booking" class="btn btn--primary" data-testid="hero-book-btn">
+                            <i class="ri-calendar-check-line"></i>
+                            এখনই বুক করুন
+                        </a>
+                        <a href="#services" class="btn btn--ghost" data-testid="hero-services-btn">
+                            সেবা দেখুন <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero__meta">
+                        <div class="hero__meta-item">
+                            <strong>১০+</strong>
+                            <span>বছরের অভিজ্ঞতা</span>
+                        </div>
+                        <div class="hero__meta-divider"></div>
+                        <div class="hero__meta-item">
+                            <strong>৫০০+</strong>
+                            <span>সন্তুষ্ট গ্রাহক</span>
+                        </div>
+                        <div class="hero__meta-divider"></div>
+                        <div class="hero__meta-item">
+                            <strong>৪.৯<i class="ri-star-fill"></i></strong>
+                            <span>গ্রাহক রেটিং</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__visual">
+                    <div class="hero__card">
+                        <img src="images/hero-bg.jpg" alt="বিশুদ্ধ পানি" loading="lazy" />
+                        <div class="hero__badge">
+                            <i class="ri-drop-fill"></i>
+                            <div>
+                                <strong>১০০% নিরাপদ</strong>
+                                <small>ল্যাব-টেস্টেড পানি</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__chip hero__chip--1">
+                        <i class="ri-shield-star-line"></i> WHO স্ট্যান্ডার্ড
+                    </div>
+                    <div class="hero__chip hero__chip--2">
+                        <i class="ri-time-line"></i> ২৪/৭ সাপোর্ট
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== POPULAR SERVICES ===== -->
+        <section class="section destination" id="services">
+            <div class="container">
+                <div class="section__head">
+                    <span class="eyebrow"><i class="ri-fire-fill"></i> জনপ্রিয় সেবা</span>
+                    <h2 class="section__title">আমাদের সবচেয়ে চাহিদা-সম্পন্ন <span class="accent">সেবাসমূহ</span>
+                    </h2>
+                </div>
+
+                <div class="dest__grid">
+                    <article class="dest__card" data-testid="service-card-1">
+                        <div class="dest__img">
+                            <img src="images/tube-well.jpg" alt="গভীর নলকূপ" loading="lazy" />
+                            <span class="dest__rating"><i class="ri-star-fill"></i> ৪.৯</span>
+                        </div>
+                        <div class="dest__body">
+                            <h3>গভীর নলকূপ স্থাপন</h3>
+                            <p>মাটির গভীর থেকে বিশুদ্ধ পানি উত্তোলন — দ্রুত, টেকসই ও নিরাপদ।</p>
+                            <a href="#booking" class="dest__link">বিস্তারিত <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="dest__card dest__card--featured" data-testid="service-card-2">
+                        <div class="dest__img">
+                            <img src="images/water-filter.jpg" alt="আয়রন মুক্ত পানি" loading="lazy" />
+                            <span class="dest__rating"><i class="ri-star-fill"></i> ৪.৮</span>
+                        </div>
+                        <div class="dest__body">
+                            <h3>আয়রন ও আর্সেনিক মুক্ত পানি</h3>
+                            <p>উন্নত ফিল্টারেশন প্রযুক্তিতে স্বাস্থ্যকর, নিরাপদ পানীয় সরবরাহ।</p>
+                            <a href="#booking" class="dest__link">বিস্তারিত <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="dest__card" data-testid="service-card-3">
+                        <div class="dest__img">
+                            <img src="images/pipeline.jpg" alt="ট্যাঙ্ক ও পাইপ" loading="lazy" />
+                            <span class="dest__rating"><i class="ri-star-fill"></i> ৪.৭</span>
+                        </div>
+                        <div class="dest__body">
+                            <h3>ট্যাঙ্ক ও পাইপ লাইন</h3>
+                            <p>বাড়ি বা প্রতিষ্ঠানের জন্য সম্পূর্ণ পাইপ লাইন ও ট্যাঙ্ক সিস্টেম।</p>
+                            <a href="#booking" class="dest__link">বিস্তারিত <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== JOURNEY ===== -->
+        <section class="section journey">
+            <div class="container">
+                <div class="section__head section__head--center">
+                    <span class="eyebrow"><i class="ri-route-line"></i> কীভাবে কাজ করে</span>
+                    <h2 class="section__title">বিশুদ্ধ পানি এখন <span class="accent">সহজ!</span></h2>
+                    <p class="section__sub">তিনটি ধাপে আপনার বাড়ি পৌঁছে যাবে নিরাপদ পানির পূর্ণ সমাধান।</p>
+                </div>
+
+                <div class="journey__grid">
+                    <div class="journey__card" data-testid="journey-card-1">
+                        <div class="journey__icon"><i class="ri-calendar-todo-line"></i></div>
+                        <h3>সরাসরি বুকিং</h3>
+                        <p>মাত্র কয়েক ক্লিকে আপনার পছন্দমতো সেবা বুক করে ফেলুন আজই।</p>
+                        <span class="journey__step">০১</span>
+                    </div>
+                    <div class="journey__card" data-testid="journey-card-2">
+                        <div class="journey__icon"><i class="ri-tools-line"></i></div>
+                        <h3>কাস্টম সমাধান</h3>
+                        <p>আপনার এলাকা ও প্রয়োজন অনুযায়ী টিম তৈরি করে দেয় কাস্টম প্ল্যান।</p>
+                        <span class="journey__step">০২</span>
+                    </div>
+                    <div class="journey__card" data-testid="journey-card-3">
+                        <div class="journey__icon"><i class="ri-test-tube-line"></i></div>
+                        <h3>বিনামূল্যে ল্যাব টেস্ট</h3>
+                        <p>আপনার পানির গুণাগুণ পরীক্ষা — সম্পূর্ণ বিনামূল্যে, প্রতিটি প্রজেক্টে।</p>
+                        <span class="journey__step">০৩</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SHOWCASE / ABOUT ===== -->
+        <section class="section showcase" id="about">
+            <div class="container showcase__container">
+                <div class="showcase__media">
+                    <img src="images/showcase.jpg" alt="মোহনা টিম" loading="lazy" />
+                    <div class="showcase__sticker">
+                        <i class="ri-medal-2-fill"></i>
+                        <div>
+                            <strong>১০+ বছর</strong>
+                            <small>বিশ্বস্ত সেবা</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showcase__content">
+                    <span class="eyebrow"><i class="ri-building-2-line"></i> মোহনা এন্টারপ্রাইজ</span>
+                    <h2 class="section__title">গ্রামে-শহরে সব জায়গায় <span class="accent">বিশুদ্ধ পানির</span>
+                        নির্ভরশীল নাম।</h2>
+                    <p>
+                        মোহনা এন্টারপ্রাইজ গত এক দশক ধরে বাংলাদেশের প্রত্যন্ত গ্রাম থেকে শহরের আধুনিক
+                        ভবন পর্যন্ত গভীর নলকূপ, ফিল্টারেশন এবং পাইপ-লাইন সমাধান দিয়ে আসছে।
+                        আমাদের প্রতিশ্রুতি — মানসম্পন্ন উপকরণ, দক্ষ কারিগর এবং সাশ্রয়ী মূল্য।
+                    </p>
+
+                    <ul class="showcase__list">
+                        <li><i class="ri-checkbox-circle-fill"></i> প্রশিক্ষিত ও অভিজ্ঞ কারিগর টিম</li>
+                        <li><i class="ri-checkbox-circle-fill"></i> উন্নত যন্ত্রপাতি ও আন্তর্জাতিক মানের পার্টس
+                        </li>
+                        <li><i class="ri-checkbox-circle-fill"></i> ১ বছর পর্যন্ত সার্ভিস ওয়ারেন্টি</li>
+                    </ul>
+
+                    <a href="#booking" class="btn btn--primary" data-testid="showcase-book-btn">
+                        <i class="ri-calendar-check-line"></i> এখনই বুক করুন
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== BANNER STATS ===== -->
+        <section class="banner section">
+            <div class="container banner__grid">
+                <div class="banner__item">
+                    <strong>১০<span>+</span></strong>
+                    <span>বছরের অভিজ্ঞতা</span>
+                </div>
+                <div class="banner__item">
+                    <strong>৫০০<span>+</span></strong>
+                    <span>সন্তুষ্ট গ্রাহক</span>
+                </div>
+                <div class="banner__item">
+                    <strong>৪.৯<i class="ri-star-fill"></i></strong>
+                    <span>গ্রাহক রেটিং</span>
+                </div>
+                <div class="banner__item">
+                    <strong>২৪/৭</strong>
+                    <span>কাস্টমার সাপোর্ট</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== DISCOVER / PACKAGES ===== -->
+        <section class="section discover" id="packages">
+            <div class="container">
+                <div class="section__head">
+                    <span class="eyebrow"><i class="ri-sparkling-2-line"></i> বিশেষ সেবা</span>
+                    <h2 class="section__title">আমাদের <span class="accent">প্যাকেজসমূহ</span></h2>
+                </div>
+
+                <div class="discover__grid">
+                    <article class="discover__card" data-testid="package-card-1">
+                        <div class="discover__media">
+                            <img src="images/pkg2.jpg" alt="নলকূপ" loading="lazy" />
+                        </div>
+                        <h3>গভীর নলকূপ স্থাপন</h3>
+                        <p>৩০০–১০০০ ফুট পর্যন্ত গভীর নলকূপ স্থাপন। সম্পূর্ণ পরীক্ষিত এবং নিরাপদ।</p>
+                        <div class="discover__foot">
+                            <span class="price">থেকে শুরু ৳ ১৫,০০০</span>
+                            <a href="#booking" class="btn btn--ghost btn--sm">বুক করুন</a>
+                        </div>
+                    </article>
+
+                    <article class="discover__card" data-testid="package-card-2">
+                        <div class="discover__media">
+                            <img src="images/pkg3.jpg" alt="আয়রন ফিল্টার" loading="lazy" />
+                        </div>
+                        <h3>আয়রন ও আর্সেনিক মুক্ত</h3>
+                        <p>আধুনিক ফিল্টার ইনস্টল করে আপনার পানিকে শতভাগ নিরাপদ করি।</p>
+                        <div class="discover__foot">
+                            <span class="price">থেকে শুরু ৳ ৮,৫০০</span>
+                            <a href="#booking" class="btn btn--ghost btn--sm">বুক করুন</a>
+                        </div>
+                    </article>
+
+                    <article class="discover__card" data-testid="package-card-3">
+                        <div class="discover__media">
+                            <img src="images/pkg1.jpg" alt="ট্যাঙ্ক ও পাইপ" loading="lazy" />
+                        </div>
+                        <h3>পাইপ লাইন ও ট্যাঙ্ক</h3>
+                        <p>উচ্চ চাপ সহ্যকারী পাইপ ও দীর্ঘস্থায়ী ট্যাঙ্ক ইনস্টলেশন সমাধান।</p>
+                        <div class="discover__foot">
+                            <span class="price">থেকে শুরু ৳ ১২,০০০</span>
+                            <a href="#booking" class="btn btn--ghost btn--sm">বুক করুন</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== REVIEWS (Swiper with Loop) ===== -->
+        <section class="section reviews" id="reviews">
+            <div class="container">
+                <div class="section__head section__head--center">
+                    <span class="eyebrow"><i class="ri-chat-quote-line"></i> গ্রাহক রিভিউ</span>
+                    <h2 class="section__title">গ্রাহকেরা যা <span class="accent">বলছেন</span></h2>
+                </div>
+
+                <div class="swiper reviews__swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Review Card 1 - রহিম উদ্দিন (পুরুষ) -->
+                        <div class="swiper-slide">
+                            <div class="review__card" data-testid="review-card-1">
+                                <div class="review__stars">
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p>"মোহনা এন্টারপ্রাইজের সেবা অসাধারণ। মাত্র দু'দিনে নলকূপ বসিয়ে পানির সমস্যা মিটিয়ে
+                                    দিয়েছেন।"</p>
+                                <div class="review__user">
+                                    <img src="https://img.icons8.com/3d-fluency/94/user-male-circle.png"
+                                        alt="রহিম উদ্দিন" loading="lazy" />
+                                    <div>
+                                        <strong>রহিম উদ্দিন</strong>
+                                        <small>কুমিল্লা</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 2 - শাহানা বেগম (মহিলা) -->
+                        <div class="swiper-slide">
+                            <div class="review__card" data-testid="review-card-2">
+                                <div class="review__stars">
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p>"আয়রনের সমস্যা ছিল অনেক বছর ধরে। ওদের ফিল্টার লাগানোর পর পানি একদম পরিষ্কার।"</p>
+                                <div class="review__user">
+                                    <img src="https://img.icons8.com/3d-fluency/94/user-male-circle.png"
+                                        alt="শাহানা বেগম" loading="lazy" />
+                                    <div>
+                                        <strong>শাহানা বেগম</strong>
+                                        <small>ঢাকা</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 3 - আব্দুল করিম (পুরুষ) -->
+                        <div class="swiper-slide">
+                            <div class="review__card" data-testid="review-card-3">
+                                <div class="review__stars">
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                                <p>"পাইপ লাইন এবং ট্যাঙ্কের কাজ খুব নিখুঁতভাবে শেষ করেছেন। মূল্যও সাশ্রয়ী।"</p>
+                                <div class="review__user">
+                                    <img src="https://img.icons8.com/3d-fluency/94/user-male-circle.png"
+                                        alt="আব্দুল করিম" loading="lazy" />
+                                    <div>
+                                        <strong>আব্দুল করিম</strong>
+                                        <small>চট্টগ্রাম</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 4 - ফারিয়া আক্তার (মহিলা) -->
+                        <div class="swiper-slide">
+                            <div class="review__card" data-testid="review-card-4">
+                                <div class="review__stars">
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p>"টিমের আচরণ ও কাজের মান দুটোই অসাধারণ। সবাইকে রিকমেন্ড করব নিশ্চিন্তে।"</p>
+                                <div class="review__user">
+                                    <img src="https://img.icons8.com/3d-fluency/94/user-male-circle.png"
+                                        alt="ফারিয়া আক্তার" loading="lazy" />
+                                    <div>
+                                        <strong>ফারিয়া আক্তার</strong>
+                                        <small>সিলেট</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 5 - মোঃ ইব্রাহিম (পুরুষ) -->
+                        <div class="swiper-slide">
+                            <div class="review__card" data-testid="review-card-5">
+                                <div class="review__stars">
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p>"খুব দ্রুত সার্ভিস পেয়েছি। টিম একদম প্রফেশনাল এবং কাজের মান চমৎকার।"</p>
+                                <div class="review__user">
+                                    <img src="https://img.icons8.com/3d-fluency/94/user-male-circle.png"
+                                        alt="মোঃ ইব্রাহিম" loading="lazy" />
+                                    <div>
+                                        <strong>মোঃ ইব্রাহিম</strong>
+                                        <small>রাজশাহী</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 6 - তাসনিম জারা (মহিলা) -->
+                        <div class="swiper-slide">
+                            <div class="review__card" data-testid="review-card-6">
+                                <div class="review__stars">
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p>"বাংলাদেশের মধ্যে সবচেয়ে নির্ভরযোগ্য পানি সমাধান প্রতিষ্ঠান। ১০০% satisfied!"</p>
+                                <div class="review__user">
+                                    <img src="https://img.icons8.com/3d-fluency/94/user-male-circle.png"
+                                        alt="তাসনিম জারা" loading="lazy" />
+                                    <div>
+                                        <strong>তাসনিম জারা</strong>
+                                        <small>খুলনা</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== BOOKING FORM ===== -->
+        <section class="section booking" id="booking">
+            <div class="container booking__container">
+                <div class="booking__info">
+                    <span class="eyebrow"><i class="ri-calendar-check-line"></i> বুকিং</span>
+                    <h2 class="section__title">আজই বুক করুন <span class="accent">সেবা</span></h2>
+                    <p>আপনার ফর্মটি পূরণ করুন — আমাদের প্রতিনিধি আপনার সঙ্গে শীঘ্রই যোগাযোগ করবেন।</p>
+
+                    <ul class="booking__contact">
+                        <li><i class="ri-phone-fill"></i> <a href="tel:+8801718823582">+৮৮০ ১৭১৮-৮২৩৫৮২</a></li>
+                        <li><i class="ri-mail-fill"></i> <a
+                                href="mailto:ahsanhabibrony0@gmail.com">ahsanhabibrony0@gmail.com</a></li>
+                        <li><i class="ri-map-pin-2-fill"></i> শেরপুর, বগুড়া, বাংলাদেশ</li>
+                    </ul>
+                </div>
+
+                <form class="booking__form" id="bookingForm" data-testid="booking-form" novalidate>
+                    <div class="field">
+                        <label for="bk-name">পূর্ণ নাম</label>
+                        <input type="text" id="bk-name" placeholder="আপনার নাম লিখুন" required
+                            data-testid="booking-name" />
+                    </div>
+
+                    <div class="field">
+                        <label for="bk-phone">মোবাইল নম্বর</label>
+                        <input type="tel" id="bk-phone" placeholder="+880 1XXXXXXXXX" required
+                            data-testid="booking-phone" />
+                    </div>
+
+                    <div class="field">
+                        <label for="bk-service">সেবা নির্বাচন করুন</label>
+                        <select id="bk-service" required data-testid="booking-service">
+                            <option value="">-- নির্বাচন করুন --</option>
+                            <option>গভীর নলকূপ স্থাপন</option>
+                            <option>আয়রন ও আর্সেনিক ফিল্টার</option>
+                            <option>পাইপ লাইন ও ট্যাঙ্ক</option>
+                            <option>অন্যান্য</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="bk-address">ঠিকানা</label>
+                        <input type="text" id="bk-address" placeholder="গ্রাম / থানা / জেলা"
+                            data-testid="booking-address" />
+                    </div>
+
+                    <div class="field field--full">
+                        <label for="bk-msg">বার্তা (ঐচ্ছিক)</label>
+                        <textarea id="bk-msg" rows="3" placeholder="আপনার প্রয়োজন বিস্তারিত লিখুন"
+                            data-testid="booking-message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary booking__submit" data-testid="booking-submit">
+                        <i class="ri-send-plane-fill"></i> বুকিং পাঠান
+                    </button>
+
+                    <p class="booking__feedback" id="bookingFeedback" data-testid="booking-feedback"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="contact">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <a href="#home" class="nav__logo">
+                    <span class="nav__logo-mark"><i class="ri-drop-fill"></i></span>
+                    <span>মোহনা <em>এন্টারপ্রাইজ</em></span>
+                </a>
+                <p>বিশুদ্ধ পানির নির্ভরযোগ্য সমাধান — বাংলাদেশের প্রতিটি ঘরে।</p>
+                <div class="footer__social">
+                    <a href="#" aria-label="Facebook" data-testid="social-facebook"><i class="ri-facebook-fill"></i></a>
+                    <a href="#" aria-label="Instagram" data-testid="social-instagram"><i
+                            class="ri-instagram-line"></i></a>
+                    <a href="#" aria-label="YouTube" data-testid="social-youtube"><i class="ri-youtube-fill"></i></a>
+                    <a href="#" aria-label="WhatsApp" data-testid="social-whatsapp"><i class="ri-whatsapp-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__col">
+                <h4>দ্রুত লিংক</h4>
+                <ul>
+                    <li><a href="#home">হোম</a></li>
+                    <li><a href="#about">সম্পর্কে</a></li>
+                    <li><a href="#services">সেবা</a></li>
+                    <li><a href="#packages">প্যাকেজ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>যোগাযোগ</h4>
+                <ul class="footer__contact">
+                    <li><i class="ri-phone-fill"></i> ০১৭১৮-৮২৩৫৮২</li>
+                    <li><i class="ri-mail-fill"></i> ahsanhabibrony0@gmail.com</li>
+                    <li><i class="ri-map-pin-2-fill"></i> শেরপুর, বগুড়া, বাংলাদেশ</li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>নিউজলেটার</h4>
+                <p>নতুন অফার ও আপডেট পেতে সাবস্ক্রাইব করুন।</p>
+                <div class="newsletter" id="newsletterForm">
+                    <input type="email" id="newsEmail" placeholder="আপনার ইমেইল" required
+                        data-testid="newsletter-email" />
+                    <button type="button" id="newsletterBtn" aria-label="Subscribe" data-testid="newsletter-submit">
+                        <i class="ri-send-plane-2-fill"></i>
+                    </button>
+                </div>
+                <p class="newsletter__msg" id="newsletterMsg" data-testid="newsletter-feedback"></p>
+            </div>
+        </div>
+
+        <div class="footer__bottom container">
+            <p>© <span id="yr"></span> মোহনা এন্টারপ্রাইজ। সর্বস্বত্ব সংরক্ষিত।</p>
+            <p>ডিজাইন ও ডেভেলপমেন্ট — <strong>Rezown Ahommod</strong></p>
+        </div>
+    </footer>
+
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4/dist/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
